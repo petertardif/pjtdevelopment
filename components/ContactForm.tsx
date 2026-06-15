@@ -41,6 +41,10 @@ export default function ContactForm({ children }: ContactFormProps) {
 
   return (
     <form onSubmit={handleSubmit}>
+      <div style={{ position: 'absolute', left: '-9999px', height: 0, overflow: 'hidden' }} aria-hidden="true">
+        <label>Leave this blank</label>
+        <input type="text" name="website" tabIndex={-1} autoComplete="off" />
+      </div>
       {children}
       {status && <div className={`form-status ${statusType}`}>{status}</div>}
       <button type="submit" className="btn btn-primary" disabled={sending}>

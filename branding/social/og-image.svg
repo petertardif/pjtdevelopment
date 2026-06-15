@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  
+  <rect width="1200" height="630" fill="#0b0c0e"></rect>
+  <g transform="translate(499.97826086956525,107) scale(2.3260869565217392)"><g fill="none" stroke="#6ee787" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><path d="M14 14 H30"></path><path d="M40 14 V61 C40 70 34 74 27 74 C20 74 16 70 16.5 65"></path></g><path fill="#6ee787" d="M25 9 H40 C58 9 73 17 73 30 C73 43 58 50 40 50 L40 19 H25 Z"></path><path fill="#0b0c0e" d="M52.5 17 C54.2 25.5 56.5 27.8 65 29.5 C56.5 31.2 54.2 33.5 52.5 42 C50.8 33.5 48.5 31.2 40 29.5 C48.5 27.8 50.8 25.5 52.5 17 Z"></path></g><text x="600" y="436" text-anchor="middle" font-weight="800" font-size="85" letter-spacing="-0.02em" fill="#ffffff">PJT Development</text><text x="600" y="506" text-anchor="middle" font-weight="500" font-size="45" fill="#9aa1ab">From ideas to apps.</text>
+</svg>

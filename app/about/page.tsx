@@ -19,7 +19,7 @@ export default function AboutPage() {
       {/* STORY */}
       <section className="sec">
         <div className="wrap about">
-          <div className="pic reveal"><div className="ph"><span>founder portrait</span></div></div>
+          <div className="pic reveal"><img src="/images/headshot1.jpeg" alt="Peter Tardif, founder of PJT Development" /></div>
           <div className="prose reveal">
             <p>I grew up in <strong>Buffalo, NY</strong>. My father worked in chemical plants and my mother raised four boys and a girl. Needless to say, I&apos;m scrappy — I know how to fight for the last cheeseburger at the dinner table, and that&apos;s what I&apos;ve brought to every job I&apos;ve ever had. It&apos;s what I&apos;ll bring to your project.</p>
             <p>My career began in education, as a <strong>teacher</strong>. I taught inner-city kids who didn&apos;t really care about school how to appreciate a good story and get their work done. If you can do that, you can explain anything to anyone.</p>

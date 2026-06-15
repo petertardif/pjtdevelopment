@@ -96,7 +96,7 @@ export default function HomePage() {
       {/* ABOUT */}
       <section className="sec" id="about">
         <div className="wrap about reveal">
-          <div className="pic"><div className="ph"><span>founder portrait</span></div></div>
+          <div className="pic"><img src="/images/headshot.jpeg" alt="Peter Tardif, founder of PJT Development" /></div>
           <div>
             <span className="idx">04 — About</span>
             <h2>A classroom, not a server room.</h2>
@@ -123,7 +123,7 @@ export default function HomePage() {
                 <div className="field"><label>Business</label><input type="text" name="business" placeholder="Smith &amp; Co." /></div>
               </div>
               <div className="field"><label>Email</label><input type="email" name="email" placeholder="jane@smithco.com" required /></div>
-              <div className="field"><label>What do you want to build?</label><textarea rows={2} name="project" placeholder="We need a booking system that…"></textarea></div>
+              <div className="field"><label>What do you want to build?</label><textarea rows={2} name="project" placeholder="My customers should be able to…" required></textarea></div>
             </ContactForm>
           </div>
         </div>

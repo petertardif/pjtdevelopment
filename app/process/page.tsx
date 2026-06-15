@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import FaqItem from '@/components/FaqItem'
 
 export const metadata: Metadata = { title: 'Process — PJT Development' }
 
@@ -65,7 +66,7 @@ export default function ProcessPage() {
       </section>
 
       {/* WHAT IT FEELS LIKE */}
-      <section className="sec nolast">
+      <section className="sec">
         <div className="wrap">
           <div className="sec-head reveal">
             <span className="idx">The difference</span>
@@ -79,6 +80,30 @@ export default function ProcessPage() {
           </div>
           <div style={{ marginTop: '48px' }}>
             <Link href="/contact" className="btn btn-primary">Book a discovery call <span className="arrow">→</span></Link>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="sec nolast">
+        <div className="wrap">
+          <div className="sec-head reveal">
+            <span className="idx">Common questions</span>
+            <h2>Things people ask before starting.</h2>
+          </div>
+          <div className="faq reveal">
+            <FaqItem
+              question="Do I need to know what I want built?"
+              answer="Not at all. Most clients come with a problem, not a spec — 'my team wastes hours on X.' Figuring out the right solution is my job, and that's exactly what the discovery call is for."
+            />
+            <FaqItem
+              question="Will I be able to understand what's going on?"
+              answer="Yes — that's the whole point of PJT. I came from teaching, so I explain everything in plain English and check that it actually makes sense to you. Ask 'why?' as often as you like."
+            />
+            <FaqItem
+              question="What happens after launch?"
+              answer="I don't disappear. I'm available for fixes, tweaks, and new features as your business grows — and the same person who built it is the one who supports it."
+            />
           </div>
         </div>
       </section>

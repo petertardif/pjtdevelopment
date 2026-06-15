@@ -19,7 +19,10 @@ export default function Header() {
   return (
     <header>
       <nav className="wrap">
-        <Link href="/" className="logo"><span className="sq"></span>PJT Development</Link>
+        <Link href="/" className="logo">
+          <img src="/logo/pjt-lockup-horizontal-light.svg" alt="PJT Development" className="logo-light" />
+          <img src="/logo/pjt-lockup-horizontal-dark.svg" alt="PJT Development" className="logo-dark" />
+        </Link>
         <div className="navlinks">
           {navLinks.map((link) => (
             <Link

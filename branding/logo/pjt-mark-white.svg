@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="86" height="92" viewBox="0 0 86 92" role="img" aria-label="PJT Development logo">
+  <defs><mask id="pjtspark"><rect width="86" height="92" fill="#fff"></rect><path fill="#000" d="M52.5 17 C54.2 25.5 56.5 27.8 65 29.5 C56.5 31.2 54.2 33.5 52.5 42 C50.8 33.5 48.5 31.2 40 29.5 C48.5 27.8 50.8 25.5 52.5 17 Z"></path></mask></defs>
+  <g mask="url(#pjtspark)">
+    <g fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M14 14 H30"></path>
+      <path d="M40 14 V61 C40 70 34 74 27 74 C20 74 16 70 16.5 65"></path>
+    </g>
+    <path fill="#ffffff" d="M25 9 H40 C58 9 73 17 73 30 C73 43 58 50 40 50 L40 19 H25 Z"></path>
+  </g>
+</svg>

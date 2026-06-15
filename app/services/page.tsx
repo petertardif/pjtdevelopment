@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import FaqItem from '@/components/FaqItem'
 
 export const metadata: Metadata = { title: 'Services — PJT Development' }
 
@@ -132,6 +133,26 @@ export default function ServicesPage() {
                 <li>Priority turnaround</li>
               </ul>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="sec">
+        <div className="wrap">
+          <div className="sec-head reveal">
+            <span className="idx">Common questions</span>
+            <h2>Before you reach out.</h2>
+          </div>
+          <div className="faq reveal">
+            <FaqItem
+              question="How much does a project cost?"
+              answer="It depends on what you need, but you'll always get a fixed, written quote before any work starts — no surprises. After our call I can give you a realistic ballpark quickly."
+            />
+            <FaqItem
+              question="How long does it take?"
+              answer="Small tools and automations can take a couple of weeks; larger apps take longer. I'll give you an honest timeline as part of the written plan, and you'll see working demos along the way."
+            />
           </div>
         </div>
       </section>

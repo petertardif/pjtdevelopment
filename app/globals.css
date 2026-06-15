@@ -89,9 +89,11 @@ html[data-theme="dark"] .btn-ghost:hover{border-color:var(--accent);color:var(--
 /* ── Header / Nav ── */
 header{position:sticky;top:0;z-index:50;background:var(--header-bg);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
 nav{display:flex;align-items:center;justify-content:space-between;height:78px}
-.logo{font-family:var(--font-head);font-weight:800;font-size:20px;letter-spacing:-.03em;display:flex;align-items:center;gap:10px}
-.logo .sq{width:13px;height:13px;background-color:var(--accent);display:inline-block}
-html[data-theme="dark"] .logo .sq{border-radius:3px;box-shadow:0 0 14px var(--accent)}
+.logo{display:flex;align-items:center}
+.logo img{height:75px;width:auto;display:block}
+.logo img.logo-dark{display:none}
+html[data-theme="dark"] .logo img.logo-light{display:none}
+html[data-theme="dark"] .logo img.logo-dark{display:block}
 .navlinks{display:flex;gap:36px}
 .navlinks a{font-size:15px;font-weight:500;color:var(--muted);transition:color .15s;position:relative}
 .navlinks a:hover{color:var(--ink)}
@@ -262,6 +264,13 @@ html[data-theme="dark"] .work .stat b{color:var(--accent)}
 .feature h3{font-size:20px;font-weight:700;letter-spacing:-.01em;margin:12px 0 8px}
 .feature p{color:var(--muted);font-size:15px}
 @media(max-width:760px){.features{grid-template-columns:1fr;gap:30px}}
+
+/* Tabs */
+.tab-bar{display:flex;gap:0;border-bottom:1px solid var(--line);margin-bottom:28px}
+.tab-bar button{background:none;border:none;cursor:pointer;font-family:var(--font-body);font-size:15px;font-weight:600;color:var(--muted);padding:10px 20px 12px;position:relative;transition:color .15s}
+.tab-bar button:hover{color:var(--ink)}
+.tab-bar button.active{color:var(--ink)}
+.tab-bar button.active::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:2px;background:var(--accent)}
 
 /* FAQ */
 .faq{border-top:1px solid var(--line2)}

@@ -26,6 +26,22 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: 'PJT Development — From ideas to apps',
   description: 'Custom software, built and shipped by one developer who explains every step in plain English. No agency overhead. No handoffs. No jargon.',
+  icons: {
+    icon: [
+      { url: '/favicon/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon/favicon-32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/favicon/favicon-16.png', sizes: '16x16', type: 'image/png' },
+    ],
+    apple: { url: '/favicon/apple-touch-icon-180.png', sizes: '180x180' },
+  },
+  openGraph: {
+    title: 'PJT Development — From ideas to apps',
+    description: 'Custom software, built and shipped by one developer who explains every step in plain English. No agency overhead. No handoffs. No jargon.',
+    url: 'https://www.pjtdevelopment.com',
+    siteName: 'PJT Development',
+    images: [{ url: '/og-image.png', width: 1200, height: 630 }],
+    type: 'website',
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
