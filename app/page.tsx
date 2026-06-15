@@ -96,7 +96,7 @@ export default function HomePage() {
       {/* ABOUT */}
       <section className="sec" id="about">
         <div className="wrap about reveal">
-          <div className="pic"><img src="/images/headshot.jpeg" alt="Peter Tardif, founder of PJT Development" /></div>
+          <div className="pic"><img src="/images/headshot1.jpeg" alt="Peter Tardif, founder of PJT Development" /></div>
           <div>
             <span className="idx">04 — About</span>
             <h2>A classroom, not a server room.</h2>
