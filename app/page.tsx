@@ -38,7 +38,7 @@ export default function HomePage() {
           <div className="sec-head reveal">
             <span className="idx">01 — Services</span>
             <h2>Whatever you need built.</h2>
-            <div className="note">One person covering the whole stack, so your idea ships as one coherent thing.<br /><Link href="/services" className="more-link">All services <span className="arrow">→</span></Link></div>
+            <div className="note">One person covering the whole stack, so your idea ships as one cohesive app.<br /><Link href="/services" className="more-link">All services <span className="arrow">→</span></Link></div>
           </div>
           <div className="svc-list reveal">
             <div className="svc"><span className="n">01</span><h3>Custom Software &amp; Tools</h3><p>Internal tools that replace the spreadsheets and manual work slowing your team down.</p><span className="go">→</span></div>
@@ -101,7 +101,7 @@ export default function HomePage() {
             <span className="idx">04 — About</span>
             <h2>A classroom, not a server room.</h2>
             <p>I grew up scrappy in Buffalo, NY, and started my career teaching inner-city kids who didn&apos;t care about school how to care about a good story. That taught me how to listen, explain hard things simply, and get the work done.</p>
-            <p>Today I&apos;m a full-stack developer building real production software. You get both halves: the engineering to build it right, and the plain-English communication to keep you in the loop the whole way.</p>
+            <p>Today I&apos;m a full-stack developer building real production software. You get both halves: the engineering to build it right, and the plain spoken communication to keep you in the loop the whole way.</p>
             <blockquote>You get a builder who also speaks human.</blockquote>
             <Link href="/about" className="more-link">My story <span className="arrow">→</span></Link>
           </div>

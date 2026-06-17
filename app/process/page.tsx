@@ -13,7 +13,7 @@ export default function ProcessPage() {
         <div className="wrap">
           <span className="crumb">Process</span>
           <h1>No mystery. <span className="accent">Just a plan.</span></h1>
-          <p className="lead">Hiring a developer can feel like handing money into a black box. Here&apos;s exactly how we&apos;ll work together, step by step, so you always know what&apos;s happening and what comes next.</p>
+          <p className="lead">Hiring a developer can feel like tossing money into a black box. Here&apos;s exactly how we&apos;ll work together, step by step, so you always know what&apos;s happening and what comes next.</p>
         </div>
       </section>
 

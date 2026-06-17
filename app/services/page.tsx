@@ -13,7 +13,7 @@ export default function ServicesPage() {
         <div className="wrap">
           <span className="crumb">Services</span>
           <h1>Whatever you need built, <span className="accent">I can build it.</span></h1>
-          <p className="lead">One developer covering the whole stack — so your idea ships as one coherent thing, with one person accountable for all of it.</p>
+          <p className="lead">One developer covering the whole stack — so your idea ships as one cohesive app, with one person accountable for it all.</p>
         </div>
       </section>
 
@@ -73,7 +73,7 @@ export default function ServicesPage() {
                 <li>Data migration &amp; clean-up</li>
                 <li>Scheduled jobs &amp; auto-generated reports</li>
                 <li>API integrations between systems</li>
-                <li>Bulk tasks that used to eat your day</li>
+                <li>Bulk tasks that eat up your day</li>
               </ul>
             </div>
             <div className="svc-card reveal">
@@ -103,7 +103,7 @@ export default function ServicesPage() {
             <div className="svc-card reveal">
               <div className="k">01</div>
               <h3>Quick Win</h3>
-              <p>You have one thing that&apos;s eating time. I fix it fast — a script, a Google Sheets tool, a Zapier-killer, a simple dashboard. Scoped tight, priced tight, delivered in days or weeks.</p>
+              <p>You have one thing that&apos;s eating time. I fix it fast — a script, a Google Sheets tool,or a simple dashboard. Scoped tight, priced right, delivered in days or weeks.</p>
               <ul className="checklist">
                 <li>Scripting &amp; automation</li>
                 <li>Google Workspace tools</li>
@@ -164,7 +164,7 @@ export default function ServicesPage() {
             <div>
               <span className="idx">Not sure what you need?</span>
               <h2>That&apos;s exactly what the discovery call is for.</h2>
-              <p>Plenty of clients come to me with a problem, not a spec — &quot;my team wastes hours on X,&quot; or &quot;I wish customers could just do Y themselves.&quot; You don&apos;t need to know the technical answer. That&apos;s my job.</p>
+              <p>Plenty of clients come to me with a problem, not a spec — &quot;it takes hours to complete X,&quot; or &quot;I wish customers could just do Y themselves.&quot; You don&apos;t need to know the technical answer. That&apos;s my job.</p>
               <p>We&apos;ll talk through what you&apos;re trying to fix, I&apos;ll tell you honestly what&apos;s possible and what it&apos;d take, and you&apos;ll leave the call with a clear next step — whether or not you hire me.</p>
               <Link href="/contact" className="btn btn-primary" style={{ marginTop: '6px' }}>Book a discovery call <span className="arrow">→</span></Link>
             </div>

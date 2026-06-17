@@ -22,8 +22,8 @@ export default function AboutPage() {
           <div className="pic reveal"><img src="/images/headshot1.jpeg" alt="Peter Tardif, founder of PJT Development" /></div>
           <div className="prose reveal">
             <p>I grew up in <strong>Buffalo, NY</strong>. My father worked in chemical plants and my mother raised four boys and a girl. Needless to say, I&apos;m scrappy — I know how to fight for the last cheeseburger at the dinner table, and that&apos;s what I&apos;ve brought to every job I&apos;ve ever had. It&apos;s what I&apos;ll bring to your project.</p>
-            <p>My career began in education, as a <strong>teacher</strong>. I taught inner-city kids who didn&apos;t really care about school how to appreciate a good story and get their work done. If you can do that, you can explain anything to anyone.</p>
-            <p>From there I moved into <strong>leadership</strong>, collaborating with principals, high-school and elementary teachers, district and college admin, BI developers, software developers, and state officials. I learned how to get very different people pulling in the same direction.</p>
+            <p>My career began in education, as a <strong>teacher</strong>. I taught inner-city kids who didn&apos;t really care about school how to appreciate a good story and get their work done. Someone who you can do that, can explain anything to anyone.</p>
+            <p>From there I moved into <strong>leadership</strong>, collaborating with principals, high-school and elementary teachers, district and college admin, data analysts and software developers, and state officials. I learned how to get very different people pulling in the same direction to accomplish goals.</p>
             <p>Today I work as a <strong>full-stack developer</strong>, building and maintaining real production software — modern apps in Vue and a Node/TypeScript API, alongside older systems that still need care. I know how to build it right, and I know how to keep it running.</p>
           </div>
         </div>
@@ -70,7 +70,7 @@ export default function AboutPage() {
             <h2>You get a builder who also speaks human.</h2>
           </div>
           <div className="features reveal">
-            <div className="feature"><div className="fk">01</div><h3>I know how to teach</h3><p>You&apos;ll understand your own software. I&apos;ll never make you feel small for asking a question.</p></div>
+            <div className="feature"><div className="fk">01</div><h3>I know how to teach</h3><p>You&apos;ll understand your own software. I&apos;ll never make you feel silly for asking a question.</p></div>
             <div className="feature"><div className="fk">02</div><h3>I know how to listen</h3><p>I get the problem before I propose a solution. Often the real need isn&apos;t the one you started with.</p></div>
             <div className="feature"><div className="fk">03</div><h3>I know how to ship</h3><p>Real production experience means I build things that work on launch day — and keep working after.</p></div>
           </div>
