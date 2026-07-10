@@ -60,18 +60,18 @@ export default function HomePage() {
             <p className="note">Click any project to read the story behind it.</p>
           </div>
           <div className="work-grid reveal">
-            <WorkCard tag="Internal tool" title="Field-service scheduler" placeholder="screenshot · scheduler">
+            <WorkCard tag="Web app" title="Financial hub" placeholder="screenshot · booking" image="/images/one-stop-dashboard.png" imagePosition="20% center">
+              <p>One Stop is a private, family-focused financial hub whose goal is to consolidate everything related to the family's financial life into a single trusted app: live account balances, investing, and a contingency guide for the partner.</p>
+              <div className="stat"><div><b>100%</b><span>Financial Knowledge</span></div><div><b>24/7</b><span>self-serve</span></div></div>
+            </WorkCard>
+            <WorkCard tag="Full Stack Web App" title="Cabin Owner and HOA Administration" placeholder="screenshot · webapp" image="/images/cabin-app-login.png" imagePosition="85% center">
+              <p>Cabin manages the administration of a small cabin community: site/lot records, owner accounts, the annual water bill, board/governance records, and day-to-day admin tasks and messaging.</p>
+              <div className="stat"><div><b>95%</b><span>bill collection</span></div><div><b>1 day</b><span>to first draft</span></div></div>
+            </WorkCard>
+            {/* <WorkCard tag="Internal tool" title="Field-service scheduler" placeholder="screenshot · scheduler">
               <p>A local HVAC company was juggling jobs across whiteboards and group texts. I built a drag-and-drop scheduler that assigns techs and texts customers automatically.</p>
               <div className="stat"><div><b>8 hrs</b><span>saved / week</span></div><div><b>0</b><span>double-bookings</span></div></div>
-            </WorkCard>
-            <WorkCard tag="Web app" title="Booking &amp; payments app" placeholder="screenshot · booking">
-              <p>A wellness studio needed clients to book and pay online without phone tag. I built a branded booking flow with Stripe payments, reminders, and an owner dashboard.</p>
-              <div className="stat"><div><b>2×</b><span>online bookings</span></div><div><b>24/7</b><span>self-serve</span></div></div>
-            </WorkCard>
-            <WorkCard tag="AI integration" title="AI client-intake assistant" placeholder="screenshot · ai intake">
-              <p>A small law office spent hours on intake paperwork. I built an AI assistant that interviews clients in plain language and fills the forms for review.</p>
-              <div className="stat"><div><b>60%</b><span>faster intake</span></div><div><b>1 day</b><span>to first draft</span></div></div>
-            </WorkCard>
+            </WorkCard> */}
           </div>
         </div>
       </section>
